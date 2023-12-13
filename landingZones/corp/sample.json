@@ -5,23 +5,23 @@
       "parSubscriptionWorkload": {
         "value": "Production"
       },
-      "parExistingSubscriptionId": { 
+      "parExistingSubscriptionId": {
         "value": ""
       },
       "parSubscriptionManagementGroupAssociationEnabled": {
         "value": true
       },
       "parSubscriptionManagementGroupId": {
-        "value": "alz-landingzones-corp"
+        "value": "jer-landingzones-corp"
       },
       "parVirtualNetworkEnabled": {
         "value": true
       },
       "parVirtualNetworkResourceGroupName": {
-        "value": "rg-networking-001"
+        "value": "rg-networking-spoke-001"
       },
       "parVirtualNetworkLocation": {
-        "value": "westeurope"
+        "value": "norwayeast"
       },
       "parVirtualNetworkName": {
         "value": "vnet-internalapp-001"
@@ -30,7 +30,7 @@
         "value": true
       },
       "parHubNetworkResourceId": {
-        "value": ""
+        "value": "/subscriptions/2d88df96-b1fc-422d-a47d-eb9018284dc1/resourceGroups/rg-jer-connectivity/providers/Microsoft.Network/virtualNetworks/alz-hub-norwayeast"
       },
       "parVirtualNetworkUseRemoteGateways": {
         "value": false
