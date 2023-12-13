@@ -14,7 +14,7 @@ permissions:
 
 env:
   IPAM_API_SCOPE: "api://33789460-ea0d-4b8e-88d1-32a51da8c829" # CHANGE
-  IPAM_URL: "https://ipam-hdaberdjk63vg.azurewebsites.net/api/spaces/contoso-corp/blocks/norwayeast/reservations" # CHANGE
+  IPAM_URL: "https://ipam-hdaberdjk63vg.azurewebsites.net/api/spaces/contoso-corp/blocks/norway-east/reservations" # CHANGE
   IPAM_SIZE: 24 # This will reserve the next available /24 address space from the Azure IPAM block in IPAM_URL
   MANAGEMENT_SUBSCRIPTION_ID: "1d6ec85d-73c1-44ac-afa4-d2586c91abb6" # CHANGE
   LOCATION: 'norwayeast' # CHANGE
