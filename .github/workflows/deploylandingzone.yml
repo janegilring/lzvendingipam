@@ -50,7 +50,7 @@ jobs:
         id: getlzparameter
         shell: pwsh
         run: |
-          $param = Get-ChildItem -Path .\landingZones\corp\ -Filter *.json | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          $param = Get-ChildItem -Path .\landingZones\corp\ -Filter *.json | Sort-Object Name -Descending | Select-Object -Last 1
           Write-Output "parameter_file=$($param)" >> $Env:GITHUB_OUTPUT
 
       - name: "Deploy Landing Zone"
